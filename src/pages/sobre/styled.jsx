@@ -10,7 +10,7 @@ background-color: #1b1b1b;
 }
 `
 export const Container = styled.section`
-    width: 100%;
+    width: 85%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;

@@ -17,7 +17,7 @@ background-color: #1b1b1b;
 }
 `
 export const Container = styled.section`
-width: 100%;
+width: 85%;
 ${center}
 /* border: solid 2px red; */
 `
@@ -29,6 +29,12 @@ h1{
     font-size: 4rem;
     width: 55vw;
     color: #cccbcb;
+    text-transform: uppercase;
+}
+a {
+    color: #3d3838;
+    font-size: 8pt;
+    
 }
 p{
    font-size: 2rem; 

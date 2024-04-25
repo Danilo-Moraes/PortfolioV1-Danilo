@@ -15,9 +15,9 @@ export default function Header() {
             <p>Front-End Developer</p>
           </S.BoxLogo>
             <ul>
-                <S.Lista><Link to="/">Inicio</Link></S.Lista>
-                <S.Lista><Link to="/sobre">Sobre mim</Link></S.Lista>
-                <S.Lista><Link to="/projeto">Projetos</Link></S.Lista>
+                <Link to="/"><S.Lista>Inicio</S.Lista></Link>
+                <Link to="/sobre"><S.Lista>Sobre mim</S.Lista></Link>
+                <Link to="/projeto"><S.Lista>Projetos</S.Lista></Link>
             </ul>
         </S.BoxMenu>
         <S.BoxIcon>
