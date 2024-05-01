@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom"
 import * as S from "./ProjectStyled"
 import git from "../../assets/git.png"
 import linkedin from "../../assets/linkedin.png"
-import react from "../../assets/react.png"
+import varcel from "../../assets/varcel.png"
 
 export default function ProjectBox() {
   return (
@@ -10,10 +11,12 @@ export default function ProjectBox() {
         <h2>ProjectName</h2>
       </S.ExpoProject>
       <S.AboutProject>
-        <img src={git} alt="" />
-        <img src={linkedin} alt="" />
-        <img src={react} alt="" />
-        <p align="justify">AboutProject</p>
+        <div>
+          <Link to=""><img src={git} alt="" /></Link>
+          <Link to=""><img src={linkedin} alt="" /></Link>
+          <Link to=""><img src={varcel} alt="" /></Link>
+        </div>
+        <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta omnis eum adipisci, cumque repellendus dolore magni corporis velit repudiandae cum suscipit commodi quam unde officia corrupti, odit vitae repellat rerum?</p>
       </S.AboutProject>
     </S.BoxProject>
   )

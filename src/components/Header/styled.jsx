@@ -86,7 +86,7 @@ export const Lista = styled.li`
         position: relative;
         background-color: rgba(0, 66, 128, 0.898);
         box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px 0px;
-        &::before{
+        &::after{
             content: '';
             position: absolute;
             width: 12px;
@@ -116,7 +116,7 @@ margin-bottom: 10px;
 img {
     width: 30px;
     &:hover{
-        box-shadow: rgba(196, 196, 196, 0.5) 0px 7px 29px 0px;
+        box-shadow: rgba(49, 49, 49, 0.5) 0px 7px 9px 0px;
         transition: all ease 0.5s;
         cursor: pointer;
     }

@@ -6,10 +6,16 @@ export default function Projetos() {
   return (
     <S.Main>
       <Header/>
-      <section>
-        <h2>Projetos</h2>
+      <S.Secproject>
+        <div>
+          <h2>Projetos</h2>
+        </div>
+        <S.Boxproject>
         <ProjectBox/>
-      </section>
+        <ProjectBox/>
+        <ProjectBox/>
+        </S.Boxproject>
+      </S.Secproject>
     </S.Main>
   )
 }

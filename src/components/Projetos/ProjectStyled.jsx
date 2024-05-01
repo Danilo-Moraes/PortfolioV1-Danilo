@@ -1,8 +1,9 @@
 import styled from "styled-components";
-import rukia from "../../assets/rukiaTST.jpeg"
+import provisor from "../../assets/provisor.png"
 
 
 export const BoxProject = styled.div`
+    position: relative;
     width: 25vw;
     height: 70vh;
     padding: 20px 10px;
@@ -14,11 +15,13 @@ export const BoxProject = styled.div`
 export const ExpoProject = styled.div`
     width: 100%;
     height: 45%;
+    background-image: url(${provisor});
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    color: #fff;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
     text-transform: uppercase;
 `
 
@@ -26,8 +29,14 @@ export const AboutProject = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
+    padding: 10px;
     img {
         width: 35px;
+    }
+    div {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
     }
 `
